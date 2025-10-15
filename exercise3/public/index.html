@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Student Form</title>
+</head>
+<body>
+  <h1>Student Information</h1>
+  <form action="/students" method="POST">
+    <label>Name: <input type="text" name="name" required /></label><br>
+    <label>Email: <input type="email" name="email" required /></label><br>
+    <label>Age: <input type="number" name="age" required /></label><br>
+    <button type="submit">Add Student</button>
+  </form>
+
+  <br><a href="/students">View All Students</a>
+</body>
+</html>
